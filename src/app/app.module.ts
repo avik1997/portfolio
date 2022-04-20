@@ -24,6 +24,8 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SkillComponent } from './skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     FooterComponent,
     EducationComponent,
-    ContactComponent
+    ContactComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +55,8 @@ import { ContactComponent } from './contact/contact.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
